@@ -36,7 +36,7 @@ var deliveryBoy = {
     ...
     
     receive: () => {
-        this.handleMessage("hello", (message) => console.log(message + this.name);
+        this.handleMessage("hello", (message) => console.log(message + this.name); // error  this is window!!
     }
 } 
 ```
